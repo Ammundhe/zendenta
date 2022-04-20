@@ -1,0 +1,30 @@
+.app__files{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 290px;
+    margin: 20px;
+}
+
+.app__files-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.app__files-add{
+    display: flex;
+    align-items: center;
+}
+
+.app__files-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: gray;
+}
+
+.app__files-pdf{
+    display: flex;
+    align-items: center;
+}

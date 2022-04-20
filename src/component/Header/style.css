@@ -1,0 +1,41 @@
+.app__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.app__header-patient{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.app__header-patient h3:first-child{
+    color: #00BFFF;
+    padding-right: 10px;
+}
+
+.app__header-printEdit{
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.app__header-edit{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100px;
+    height: 43px;
+    margin: 10px;
+}
+.app__header-edit img{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+

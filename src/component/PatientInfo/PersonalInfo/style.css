@@ -1,0 +1,24 @@
+.app__personlInfo{
+    width: 450px;
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.app__personalInfo{
+    width: 120px;
+    display: block;
+    border-bottom: 1px solid grey;
+    margin: 10px;
+}
+
+.app__personalInfo h5{
+    margin: 0;
+}
+
+.app__personalInfo p{
+    margin-top: 5px;
+    margin-bottom: 2px;
+}

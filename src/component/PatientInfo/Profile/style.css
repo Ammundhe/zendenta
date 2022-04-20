@@ -1,0 +1,58 @@
+.app__profile{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__profile h3{
+    margin: 0;
+}
+
+.app__profile p{
+    margin: 0;
+}
+
+
+.app__profile-events{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__profile-event_liner{
+    width: 1px;
+    height: 40px;
+    background-color: gray;
+    margin: 10px;
+}
+
+.app__profile-event_past{
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__profile-event_upcoming{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom__button{
+    width: 170px;
+    height: 40px;
+    margin: 10px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+}

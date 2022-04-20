@@ -1,0 +1,80 @@
+.app__sidebar{
+    width: 500px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.app__sidebar-mainHeading{
+    margin-top: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__sidebar-mainHeading img{
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.app__sidebar-subheading{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.app__sidebar-subheading h2{
+    margin: 0;
+    font-weight: bold;
+}
+
+.app__sidebar-subheading p{
+    margin: 0%;
+}
+
+.app__sidebar-content{
+    margin-top: 20px;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 15px;
+}
+
+.app__sidebar-help{
+    margin-top: 100px;
+    padding-left: 15px;
+}
+
+.app__sidebar-doctorInfo{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid grey;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.app__sidebar-doctorInfo_name{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.app__sidebar-doctorInfo_name h4{
+    margin: 0;
+    font-size: 15px;
+}
+
+.app__sidebar-doctorInfo_name p{
+    margin: 0;
+}

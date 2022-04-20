@@ -1,0 +1,112 @@
+.app__appointment{
+    width: 675px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+}
+
+.app__appointment-navbar{
+    display: flex;
+    width: 600px;
+    margin: 10px;
+    background-color: #f2f2f2;
+    justify-content: space-evenly;
+}
+
+.app__appointment-navbar h3{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.app__appointment-navbar h3:first-child{
+    background-color: white;
+    color: #00BFFF;
+}
+
+.app__appointment-navbar h3:hover{
+    background-color: white;
+    color: #00BFFF;
+}
+
+.app__appointment-medical_data{
+    background-color: #f2f2f2;
+    margin: 10px;
+    overflow-y: scroll;
+}
+
+.app__appointment-medical_data::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px white;
+  }
+   
+.app__appointment-medical_data::-webkit-scrollbar-thumb {
+    background-color: white;
+    outline: 1px solid white;
+  }
+
+.app__appointment-medial_info{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.app__appointment-medial_info h3{
+    font-size: 15px;   
+}
+
+.app__appointment-show{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding:0 10px;
+}
+
+.app__appointment-event{
+    display: flex;
+}
+
+.app__appointment-date{
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+.app__appointment-line{
+    width: 1px;
+    height: 60px;
+    background-color: gray;
+    margin: 10px 10px ;
+}
+
+.app__apointment-dateinfo h4{
+    margin-bottom: 5px;
+}
+
+.app__apointment-dateinfo p{
+    margin: 0;
+}
+
+.app__appointment-medical{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.app__appointment-medical p{
+    margin-bottom: 5px;
+}
+
+.app__appointment-medical h4{
+    margin: 0;
+}
+
+.app__appointment-note{
+    display: flex;
+    align-items: center;
+    color: #00BFFF;
+}

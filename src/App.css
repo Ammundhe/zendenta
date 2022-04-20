@@ -1,0 +1,17 @@
+.myapp{
+    display: flex;
+    width: 100%;
+    background-color: #f2f2f2;
+
+}
+.myapp__info{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.myapp__info-patient{
+    display: flex;
+}
+
+

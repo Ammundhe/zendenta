@@ -1,0 +1,56 @@
+.app__notesbar{
+    display: block;
+    width: 290px;
+    background-color: white;
+    margin: 20px;
+}
+
+.app__notebar-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding:0 10px;
+}
+
+.app__notebar-navbar p{
+    color: #00BFFF;
+}
+
+.app__notebar-notes{
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.app__notebar-notes p{
+    margin: 5px;
+}
+
+.app__notebar-notes button{
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:blue;
+    color: white;
+    padding: 5px;
+    outline: none;
+}
+
+.app__notebar-doc p{
+    margin: 0%;
+    padding-left: 20px;
+}
+
+
+.app__notebar-docinfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: gray;
+}
+
+.app__notebar-docinfo span:first-child{
+    display: flex;
+    align-items: center;
+}
